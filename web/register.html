@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <style>
+        body{
+            background: url("/img/304249.jpg");
+            text-align: center;
+        }
+        p{
+            height: 70px;
+            width: 1100px;
+            line-height: 70px;
+            font-size: 40px;
+            font-weight: 800;
+            color: black;
+
+        }
+        input{
+            height: 70px;
+            width: 800px;
+            line-height: 70px;
+            font-size: 40px;
+            background-color: chocolate;
+            color: black;
+            font-weight: 800;
+        }
+        #a4{
+            width:200px;
+            height: 50px;
+        }
+        #a6{
+            height: 50px;
+            width: 200px;
+        }
+        #a5{
+            width: 300px;
+            color: chocolate;
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div>
+    <form action="register.jsp" method="post">
+        <p id="p1">用户名:<input type="text" name="username" placeholder="数字或字母"/></p>
+        <p id="p2">密码名:<input type="password" name="password"/></p>
+        <p id="p3">确认码:<input type="password" name="password1"/></p>
+        <p id="p4">性别是:<input type="radio" name="gender" value="male" id="a6" checked="true"/>男
+            <input type="radio" name="gender" value="female" id="a4"/>女</p>
+        <p id="p5"><input type="submit" value="申请" id="a5">
+    </form>
+    </div>
+</center>
+</body>
+</html>

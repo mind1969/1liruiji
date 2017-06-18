@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        body{
+            background-image: url("/img/305446.jpg");
+            text-align: center;
+        }
+        #h1{
+            display: block;
+            color: crimson;
+            height: 200px;
+            line-height: 150px;
+            font-size: 40px;
+
+        }
+        p{
+            color: black;
+            width: 600px;
+        }
+
+        #da{
+            background-color: lime;
+            font-size: 40px;
+            width: 500px;
+            background-color: chocolate;
+            line-height: 60px;
+            size: 60px;
+            color: crimson;
+        }
+        #db{
+            background-color: lime;
+            font-size: 40px;
+            line-height: 60px;
+            width: 500px;
+            size: 60px;
+            background-color: chocolate;
+            color: crimson;
+        }
+        a{
+            color: fuchsia;
+        }
+        input{
+            background-color: aqua;
+            height: 60px;
+        }
+        #qq{
+            color: blue;
+        }
+        #pq{
+            background-color: antiquewhite;
+            width: 500px;
+            height: 70px;
+            line-height: 70px;
+            font-size: 50px;
+        }
+        #dc{
+            height: 60px;
+            line-height: 60px;
+            font-size: 40px;
+            width: 100px;
+            background-color: chocolate;
+            color: crimson;
+        }
+        #dd{
+            height: 60px;
+            line-height: 60px;
+            font-size: 40px;
+            width: 100px;
+            background-color: chocolate;
+            color: crimson;
+        }
+        #sa{
+            color: fuchsia;
+            font-weight: 900;
+
+        }
+        #as{
+            color: fuchsia;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+<div class="login-msg error" style="text-align: center;width: 880px; margin: 0 auto;">
+    <p class="error" style="float: none;width: auto;" id="p1">
+        <h id="h1">只有成为官方用户才能享受更多功能！</h>
+    </p>
+</div>
+<center>
+<div id="d2">
+    <form action="login.jsp" method="post">
+       <p id="as"> 用户名:<input type="text" name="username" id="da"  value="" /></p>
+        <p id="sa">密码名:<input type="password" name="password" id="db" value="" /></p>
+        <input type="submit" value="登录" size="100" id="dc"/>
+        <input type="reset" value="Reset" size="100" id="dd"/>
+    </form>
+</div>
+    <p id="pq" /><h id="qq">如果没有账号？请</h><a href="register.html">注册</a>
+</center>
+</body>
+</html>
